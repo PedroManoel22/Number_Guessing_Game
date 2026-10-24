@@ -19,7 +19,7 @@ def get_difficulty_level() -> int:
             level = int(input("Enter your choice: "))
             if level in [1, 2, 3]:
                 print(
-                    f"\nGreat! You have selected the {dificultes[level - 1]} difficulty level.\nLet's start the game!\n"
+                    f"\n[green]Great! You have selected the {dificultes[level - 1]} difficulty level.\nLet's start the game!\n[/green]"
                 )
                 return level
             else:
